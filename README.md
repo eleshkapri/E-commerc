@@ -11,23 +11,6 @@
 
 ---
 
-## 🚀 Live Deployment on Vercel
-
-You can deploy this website to Vercel instantly using either of the methods below:
-
-### Option A: One-Click Deploy
-Click the button below to fork and deploy directly to your Vercel account:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Feleshkapri%2FE-commerc)
-
-### Option B: Deploy from GitHub Dashboard
-1. Go to [Vercel Dashboard](https://vercel.com/dashboard) and click **"Add New..."** ➔ **"Project"**.
-2. Import the GitHub repository: **`eleshkapri/E-commerc`**.
-3. Keep default settings (Vercel automatically detects the static configuration in `vercel.json`).
-4. Click **Deploy**. Your site will be live on a global CDN within seconds!
-
----
-
 ## 📸 Preview & Screenshots
 
 | Desktop Showcase | Mobile Showcase |

@@ -1,0 +1,12 @@
+{
+  "name": "anon-ecommerce",
+  "version": "1.0.0",
+  "description": "Modern & Responsive eCommerce Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["ecommerce", "shopping", "store"],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,5 +1,6 @@
 # Anon - Modern & Fully Functional eCommerce Website
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Feleshkapri%2FE-commerc)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
@@ -7,6 +8,23 @@
 [![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 
 **Anon** is a modern, fully functional, and responsive eCommerce web application built with vanilla HTML5, CSS3, and ES6+ JavaScript. It features an interactive shopping cart, wishlist system, live product search with dropdown suggestions, quick view modal, multi-currency price conversions, deal of the day countdown timers, social proof notifications, and checkout simulation.
+
+---
+
+## 🚀 Live Deployment on Vercel
+
+You can deploy this website to Vercel instantly using either of the methods below:
+
+### Option A: One-Click Deploy
+Click the button below to fork and deploy directly to your Vercel account:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Feleshkapri%2FE-commerc)
+
+### Option B: Deploy from GitHub Dashboard
+1. Go to [Vercel Dashboard](https://vercel.com/dashboard) and click **"Add New..."** ➔ **"Project"**.
+2. Import the GitHub repository: **`eleshkapri/E-commerc`**.
+3. Keep default settings (Vercel automatically detects the static configuration in `vercel.json`).
+4. Click **Deploy**. Your site will be live on a global CDN within seconds!
 
 ---
 
@@ -67,12 +85,12 @@
 
 ---
 
-## 🚀 Getting Started & Local Setup
+## 🚀 Local Development Setup
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v16 or higher) **or** [Python](https://python.org/) installed on your machine.
 
-### Installation & Running Locally
+### Running Locally
 
 1. **Clone the Repository**:
    ```bash
@@ -81,7 +99,7 @@
    ```
 
 2. **Start the Local Server**:
-   Using the built-in Node.js server (zero dependencies required):
+   Using the built-in Node.js server:
    ```bash
    node server.js
    ```
@@ -103,8 +121,9 @@
 ```
 E-commerc/
 ├── index.html                   # Master HTML5 markup with all drawers & modals
+├── vercel.json                  # Vercel deployment configuration
 ├── server.js                    # Zero-dependency Node.js static HTTP server
-├── README.md                    # Project documentation
+├── README.md                    # Project documentation & Vercel guide
 ├── assets/
 │   ├── css/
 │   │   ├── style.css            # Complete design system, layouts & animations
